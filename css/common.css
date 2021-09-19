@@ -1,0 +1,120 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 100%;
+	display: flex;
+	font-size: 10px;
+	font-family: STHeitiSC-Light;
+	flex-direction: column;
+}
+html,body{
+	height: 100%;
+}
+header{
+	width: 100%;
+	background-color: #5FC0CD;
+	height: 5.5rem;
+	
+}
+header p{
+	color: #FFFFFF;
+	font-size: 2.25rem;
+	display: block;
+	line-height: 5.5rem;
+	text-align: center;
+}
+img{
+	float: left;
+	margin: 1.625rem 0rem 1.5625rem 2.125rem;
+}
+#info{
+	width: 100%;
+	padding-bottom: 100px;
+	background:url(../img/task5-1.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+	
+}
+#info :nth-child(2){
+	font-size: 2.25rem;
+	color: #FFFFFF;
+	position: absolute;
+	left: 21.875rem;
+	top: 9.375rem;
+	
+}
+#info :nth-child(4){
+	font-size: 1.875rem;
+	color: #FFFFFF;
+	position: absolute;
+	left: 30rem;
+	top: 9.6875rem;
+}
+#info :nth-child(5){
+	color: #FFFFFF;
+	position: absolute;
+	left: 20rem;
+	top: 12.5rem;
+	width: 1.875rem;
+}
+#info :nth-child(6){
+	color: #FFFFFF;
+	position: absolute;
+	left: 25rem;
+	top: 14.375rem;
+	font-size: 1.5rem;
+}
+main{
+	flex-grow: 1;
+	
+	background-color: #EFF0F4;
+	
+	
+}
+section{
+	border-bottom: grey solid 0.0625rem;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	
+}
+section p{
+	padding-left: 40px;
+	float: left;
+	height: 50px;
+	font-size: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+	
+	
+}
+section img{
+	
+	height: 40px;
+}
+button{
+	height: 148px;
+	border-radius: 15px;
+	flex-grow: 1;
+	font-size: 2.125rem;
+}
+footer{
+	display: flex;
+	background-color: #EFF0F4;
+	padding-top: 1.5625rem;
+}
+footer :nth-child(1){
+	color: #5FC0CD;
+	border: #5FC0CD solid 0.1875rem;
+	
+}
+footer :nth-child(2){
+	color: white;
+	border: white solid 3px;
+	background-color: #5FC0CD;
+}
+
